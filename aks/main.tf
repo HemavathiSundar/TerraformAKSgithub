@@ -20,7 +20,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_kubernetes_cluster" "k8squickstart" {
+resource "azurerm_kubernetes_cluster" "hemascluster" {
   name                = var.name
   location            = var.location
   resource_group_name = var.resource_group_name
