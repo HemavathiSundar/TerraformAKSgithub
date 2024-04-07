@@ -11,7 +11,7 @@ variable "resource_group_name" {
 
 variable "location" {
   type = string
-  default = "westus"
+  default = "westus2"
 }
 
 variable "node_count" {
